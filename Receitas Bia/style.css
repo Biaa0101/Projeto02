@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.container{
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+}
+.imagem{
+    display: inline-block;
+    margin: 30px;
+    margin-top: 90px;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-align: center;
+}
+header nav{
+    text-align: center;
+}
+header h1{
+    color: purple;
+    font-family: cursive;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+footer{
+    background-color:#e8bcf7;
+    color:purple;
+    text-align: center;
+    padding: 20px;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+}
+body{
+    background-color: #f7d2da;
+}
+nav{
+    background-color: #e8bcf7;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li:hover{
+    background-color: #AAECFC;
+    border-radius: 10px;
+}
+nav ul li{
+    margin: 10px;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: purple;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.sub-menu{
+    display: none;
+}
+nav ul li:hover .sub-menu{
+    background-color: #e8bcf7;
+    display: block;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+nav ul li .sub-menu ul{
+    display: block;
+    color: purple;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+nav ul li:hover.sub-menu ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+nav ul li:hover .sub-menu ul li a{
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+div{
+    justify-content: center;
+}
