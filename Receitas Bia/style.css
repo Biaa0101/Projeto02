@@ -42,12 +42,21 @@ footer{
     background-color:#e8bcf7;
     color:purple;
     text-align: center;
-    padding: 20px;
+    padding: 5px 0;
     width:100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
+    margin-top: 20px;
+}
+main{
+    flex: 1;
+    padding: 20px;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
     background-color: #f7d2da;
 }
 nav{
