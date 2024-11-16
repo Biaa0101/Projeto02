@@ -1,12 +1,13 @@
 @charset "UTF-8";
 p{
-    font-size: 25px;
+    font-size: 20px;
 }
 li{
     font-size: 25px;
     color: purple;
 }
 h1{
+    font-size: 28px;
     text-decoration: underline;
     color: blueviolet;
 }
@@ -134,11 +135,11 @@ div{
 #efeitoInicio{position:relative;padding:4px;}
 #efeitoInicio:hover{top:-2px;border-radius: 5px;}
 
-#efeitoBolos{position:relative;padding:4px;}
-#efeitoBolos:hover{top:-2px;border-radius: 5px;}
+#efeitoBolo{position:relative;padding:4px;}
+#efeitoBolo:hover{top:-2px;border-radius: 5px;}
 
-#efeitoSobremesas{position:relative;padding:4px;}
-#efeitoSobremesas:hover{top:-2px;border-radius: 5px;}
+#efeitoSobremesa{position:relative;padding:4px;}
+#efeitoSobremesa:hover{top:-2px;border-radius: 5px;}
 
-#efeitoTortas{position:relative;padding:4px;}
-#efeitoTortas:hover{top:-2px;border-radius: 5px;}
+#efeitoTorta{position:relative;padding:4px;}
+#efeitoTorta:hover{top:-2px;border-radius: 5px;}
