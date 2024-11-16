@@ -1,4 +1,15 @@
 @charset "UTF-8";
+p{
+    font-size: 25px;
+}
+li{
+    font-size: 25px;
+    color: purple;
+}
+h1{
+    text-decoration: underline;
+    color: blueviolet;
+}
 .container{
     text-align: center;
     color: purple;
@@ -7,7 +18,7 @@
 .imagem{
     display: inline-block;
     margin: 30px;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 *{
     margin: 0;
@@ -99,3 +110,26 @@ nav ul li:hover .sub-menu ul li a{
 div{
     justify-content: center;
 }
+#efeito{position:relative;top:0;padding:4px;
+    transition: all .2s ease-in-out}
+#efeito:hover{top:-4px;box-shadow:0 4px 3px #999}
+
+#efeito2{position:relative;top:0;padding:4px;
+    transition: all .2s ease-in-out}
+#efeito2:hover{top:-4px;box-shadow:0 4px 3px #999}
+
+#efeito3{position:relative;top:0;padding:4px;
+    transition: all .2s ease-in-out}
+#efeito3:hover{top:-4px;box-shadow:0 4px 3px #999}
+
+#efeitoInicio{position:relative;padding:4px;}
+#efeitoInicio:hover{top:-2px;border-radius: 5px;}
+
+#efeitoBolos{position:relative;padding:4px;}
+#efeitoBolos:hover{top:-2px;border-radius: 5px;}
+
+#efeitoSobremesas{position:relative;padding:4px;}
+#efeitoSobremesas:hover{top:-2px;border-radius: 5px;}
+
+#efeitoTortas{position:relative;padding:4px;}
+#efeitoTortas:hover{top:-2px;border-radius: 5px;}
